@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio by sneha</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/441f0cea52.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Sneha-Group-White-Logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>web Developer</p>
+                <h1>Hi, I am <span>Sneha </span><br>Kashitkar From India</h1>
+                
+            </div>
+        </div>
+    </div>
+    <!-- About Me Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="sneha photo.jpeg" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Experienced web developer with a passion for creating
+                        innovative and efficient solutions also committed to continuous
+                        learning with the latest technologies. seeking challenging
+                        opportunity where I can fully utilize my skills contributing to the
+                        success of the organization</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('por')">Position Of Responsibilities</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>webapp</span><br>Designing Web/App interface </li><br>
+                                <li><span>responsive page</span><br>Designing responsive landing page</li><br>
+                                <li><span>weather Webapp </span><br>stopwatch</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>May 2024 - Current</span><br>Web Development Internship At ProdigyInfoTech</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Thakur Shyamnarayan Degree College </span><br></li><br>
+                                <li><span>Parle Tilak Vidyalaya Association's Sathaye College </span><br>Higher Secondary Certificate
+                                    2022<br><b>Percentage: 48.00%</b><br></li><br>
+                                <li><span>M.L.R.T.Gala Pioneer Public School</span><br>School March 2020 <br><b>Percentage: 83.00%</b><br></li>
+                            </ul>
+                            </div>
+                            <div class="tab-contents" id="por">
+                                <ul>
+                                    <li><span>committee members | CSI Committee Working 2024</span><br>Organizing Technical Events and managing people.
+                                        <br>Organized many workshops and seminars for students<br>
+                                    </li><br>
+                                    <li><span>Technical Executive | CSI Committee July 2022-23</span><br>Contributed in many workshops and Technical games
+                                        organized by CSI.<br>Helped in making the carft for the technical event called
+                                        CSI <br></li><br>
+                                        <li><span><br><br></li>
+                                </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!-- Services  -->
+   <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I specialize in crafting visually stunning, user-friendly websites that leave a lasting impact. Explore my work below, and let's collaborate to bring your digital vision to life.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-slack"></i>
+                    <h2>stopwatch webApp</h2>
+                    <p> latest project in stopwatch development! ⏱ Embarking on this journey, I immersed myself in the realm of web development, mastering the blend of HTML, JavaScript, and CSS to craft an engaging stopwatch experience.
+                      Employing JavaScript's capabilities.
+                      </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>weather App</h2>
+                    <p>My Weather Web Project on LinkedIn! I've been working on a Weather Web application, and I'm thrilled to showcase what I've learned throughout the process. This project allowed me to dive deep into web development, from designing interactive user interfaces with HTML and CSS to fetching real-time weather data using JavaScript and APIs. Through this journey, I've honed my skills in front-end development, data visualization, and API integration, gaining valuable insights into the complexities of building robust web applications</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+   </div>
+   <!-- Projects -->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="wether app.jpeg" alt="work1">
+                <div class="layer">
+                    <h3>weather webApp</h3>
+                    <p>Explore my impressive weather webApp, crafted with css, js, html.</p>
+                    <a href="https://github.com/snehakashitkar/PRODIGY_WD_05.git" new><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="responsive landing page.jpeg" alt="work2">
+                <div class="layer">
+                    <h3> Responsive Landing Page</h3>
+                    <p>I had created one responsive landing page pages with interacting navigation bar,navbar hiding when scrolled giving a good display of main content, hover functionality in navbar lists.i had used HTML for structuring the website, CSS to style I had made it responsive for small devices, Desktop, and laptops..</p>
+                    <a href="https://github.com/snehakashitkar/PRODIGY_WD_01.git" new><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="stopwatch.jpeg" alt="work3">
+                <div class="layer">
+                    <h3>stopwatch webapp</h3>
+                    <p>This web application built using HTML, CSS, and JavaScript demonstrates my ability to create interactive user interfaces. Developed as a task for the web development</p>
+                    <a href="https://github.com/snehakashitkar/PRODIGY_WD_02.git" new><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+   </div>
+   <!-- Connect With Me -->
+   
+    <script src="./index.js"></script>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> kashitkarsneha8@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/"><i class="fa-brands fa-linkedin"></i></i></a>
+                        <a href="https://github.com/Snehakashitkar"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="first resume (1) (1).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="email" name="email" placeholder="Enter Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © sneha. Made by Sneha Kashitkar </p>
+        </div>
+    </div>
+</body>
+</html>
